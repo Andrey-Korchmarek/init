@@ -1,1 +1,1 @@
-ifconfig  en1 | sed -n -e 's/^.*ether //p'
+ifconfig  en1 | sed -n 's/^.*ether //p'
