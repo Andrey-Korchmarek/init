@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd | cut -f1,3,6 -d: | sed -r 's/[:]/ /g'
+awk -F':' '{print $1, $3, $7}' /etc/passwd

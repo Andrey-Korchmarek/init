@@ -1,4 +1,1 @@
-cut -d: -f1,3 /etc/passwd | egrep ':[0-9]{4}$' | cut -d: -f1
-#Human users have UIDs starting at 1000
-#or
-#ls /home
+awk -F':' '/home/{print $1}' /etc/passwd
