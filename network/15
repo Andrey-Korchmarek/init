@@ -1,2 +1,3 @@
-#Открыть /etc/hosts для редактирование с использованием sudo
-#Добавить в конец строчку 46.19.122.85 intra.42.fr
+sudo vim /private/etc/hosts
+add the line:
+"46.19.122.85 intra.42.fr"

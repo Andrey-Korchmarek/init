@@ -1,1 +1,2 @@
-#Объясните, как подключить себя как нового пользователя. (С графической сессией и сессией SSH)
+SSH : ssh <user>@<ip> then put password when asked
+Graphical : Put your login and password when asked
